@@ -12,6 +12,7 @@
 
 📗 🎨 📗
 🌍 🦃 🎨 🍇
+  💭 foreground
   🔘🖤 💭 black foreground
   🔘❤ 💭 red foreground
   🔘💚 💭 green foreground
@@ -29,6 +30,7 @@
   🔘💬 💭 light cyan foreground
   🔘💔 💭 white foreground
 
+  💭 background
   🔘🤕 💭 black background
   🔘🥵 💭 red background
   🔘🤢 💭 green background
@@ -45,6 +47,12 @@
   🔘😎 💭 light pink background
   🔘🤓 💭 light cyan background
   🔘😷 💭 white background
+
+  💭 style
+  🔘🌩 💭 bold
+  🔘🌧 💭 italic
+  🔘🌨 💭 underline
+
 
   📗  📗
   ❗️ 🔡 ➡️ 🍬🔡 🍇
@@ -146,6 +154,17 @@
     🍉
     ↪️ 🐕 🙌 🆕🎨😷 ❗️ 🍇
       ↩️ 🔤[107m🔤
+    🍉
+
+    💭 style
+    ↪️ 🐕 🙌 🆕🎨🌩 ❗️ 🍇
+      ↩️ 🔤[1m🔤
+    🍉
+    ↪️ 🐕 🙌 🆕🎨🌧 ❗️ 🍇
+      ↩️ 🔤[3m🔤
+    🍉
+    ↪️ 🐕 🙌 🆕🎨🌨 ❗️ 🍇
+      ↩️ 🔤[4m🔤
     🍉
 
     ↩️ 🤷‍

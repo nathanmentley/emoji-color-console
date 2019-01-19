@@ -1,0 +1,55 @@
+💭🔜
+    clihelper - A CLI Library for Emojicode.
+
+    Copyright 2019 Nathan Mentley
+    
+    Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+    
+    The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+    
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+🔚💭
+
+📗 📗
+🌍 🐇 🖌 🍇
+  🆕 🍇🍉
+  📗 📗
+  🐇 🔓 ❗️ 🖌 message 🔡 styles 🍨🐚🎨🍆 ➡️ 🔡 🍇
+    ↪️ 🚫🐇🖌❗️ ➡️ escape  🍇
+      ↩️ 🍪 escape 🔤[31m🔤 message escape 🔤[0m🔤 🍪
+    🍉
+    ↩️ message
+  🍉
+
+  📗 📗
+  🐇 🔒 ️❗ 🚫 ➡️ 🍬🔡 🍇
+    🔤🔤 ➡️ 🖍 🆕 ret
+
+    💭 Since emojicode doesn't have the ability to use an escape in a string to setup a custom char. Example: \x1B
+    💭 We need to start with a byte and do some memory magic to get it as a string.
+
+    💭 load up escape char(27) as a byte and then store it as a string.
+    💧27❗️ ➡️ byte
+    ☣️ 🍇 💭 It's a bit of a complex thing to get a string of a byte
+      💭 manual memory allocation
+      🆕 🧠 🆕 1 ❗ ➡️ uData
+      💭 Copy our byte into the memory we alloc'd
+      ✍ uData byte 0 1 ❗️
+      💭 Get data from our memory pointer
+      🆕 📇 🧠 uData 1 ❗️ ➡️ binary
+    🍉
+
+    💭 get an optional string from data and unwrap it.
+    ↪️ 🔡 binary ❗️ ➡️ string 🍇
+      💭 Store the hard to get escape character
+      string ➡️ 🖍 ret
+    🍉
+
+    ☣️ 🍇
+      💭 Cleanup our unmanaged memory code.
+      ♻ uData  🐚💧🍆 0 ❗
+    🍉
+
+    ↩️ ret
+  🍉
+🍉

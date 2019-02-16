@@ -10,19 +10,24 @@
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 🔚💭
 
-📗 📗
+📗 A class that will apply styles defined in 🎨 to strings. 📗
 🌍 🐇 🖌 🍇
   🆕 🍇🍉
   📗 📗
   🐇 🔓 ❗️ 🖌 message 🔡 styles 🍨🐚🎨🍆 ➡️ 🔡 🍇
     message ➡️ 🖍 🆕 ret
     
-    💭 ↩️ 🍪 escape 🔤[31m🔤 message escape 🔤[0m🔤 🍪
+    💭 get the clear style string to concat at the end of the message
+    ⌛🐇🖌❗️ ➡️ clearStyle
   
+    💭 Try to get the escape character, (byte 27), as a string called escape
     ↪️ 🚫🐇🖌❗️ ➡️ escape 🍇
+      💭 foreach passed enum style
       🔂 style styles 🍇
+        💭 get the string value of the style
         ↪️ 🔡 style ❗️ ➡️ code 🍇
-          🍪 escape code ret escape ⌛🐇🖌❗️ 🍪 ➡️ 🖍 ret
+          💭 concat escapeByte, style code, the passed message, escapeByte, and the clear style code.
+          🍪 escape code ret escape clearStyle 🍪 ➡️ 🖍 ret
         🍉
       🍉
     🍉
@@ -30,12 +35,12 @@
     ↩️ ret
   🍉
 
-  📗 📗
+  📗 Returns the clear formating string. 📗
   🐇 🔒 ️❗ ⌛ ➡️ 🔡 🍇
     ↩️ 🔤[0m🔤
   🍉
 
-  📗 📗
+  📗 Returns a string that contains the escape byte. (27) 📗
   🐇 🔒 ️❗ 🚫 ➡️ 🍬🔡 🍇
     🔤🔤 ➡️ 🖍 🆕 ret
 

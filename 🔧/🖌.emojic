@@ -13,10 +13,11 @@
 📗 A class that will apply styles defined in 🎨 to strings. 📗
 🌍 🐇 🖌 🍇
   🆕 🍇🍉
-  📗 📗
+  📗 Takes a string and a list of 🎨 values and returns a string that's formatted based on the passed styles. 📗
   🐇 🔓 ❗️ 🖌 message 🔡 styles 🍨🐚🎨🍆 ➡️ 🔡 🍇
     message ➡️ 🖍 🆕 ret
-    
+    💭 TODO: Use 🔠 instead of 🍪
+
     💭 get the clear style string to concat at the end of the message
     ⌛🐇🖌❗️ ➡️ clearStyle
   
@@ -36,12 +37,12 @@
   🍉
 
   📗 Returns the clear formating string. 📗
-  🐇 🔒 ️❗ ⌛ ➡️ 🔡 🍇
+  🐇 🔓 ️❗ ⌛ ➡️ 🔡 🍇
     ↩️ 🔤[0m🔤
   🍉
 
   📗 Returns a string that contains the escape byte. (27) 📗
-  🐇 🔒 ️❗ 🚫 ➡️ 🍬🔡 🍇
+  🐇 🔓 ️❗ 🚫 ➡️ 🍬🔡 🍇
     🔤🔤 ➡️ 🖍 🆕 ret
 
     💭 Since emojicode doesn't have the ability to use an escape in a string to setup a custom char. Example: \x1B

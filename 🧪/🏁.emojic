@@ -11,8 +11,82 @@
 🔚💭
 
 💭 package imports
+📦 testtube 🏠
 📦 colorconsole 👩‍🎨
 
+🐇🦔🧪  🍇
+  ✒️ ❗️ 🏁 🍇
+    🍨
+      🆕🔶👩‍🎨🎨💙❗️
+      🆕🔶👩‍🎨🎨🖤❗️ 💭 black foreground
+      🆕🔶👩‍🎨🎨❤❗️ 💭 red foreground
+      🆕🔶👩‍🎨🎨💚❗️ 💭 green foreground
+      🆕🔶👩‍🎨🎨💛❗️ 💭 yellow foreground
+      🆕🔶👩‍🎨🎨💙❗️ 💭 blue foreground
+      🆕🔶👩‍🎨🎨💜❗️ 💭 purple foreground
+      🆕🔶👩‍🎨🎨🧡❗️ 💭 cyan foreground
+      🆕🔶👩‍🎨🎨🗨❗️ 💭 light gray foreground
+      🆕🔶👩‍🎨🎨💥❗️ 💭 dark gray foreground
+      🆕🔶👩‍🎨🎨💫❗️ 💭 light red foreground
+      🆕🔶👩‍🎨🎨💦❗️ 💭 light green foreground
+      🆕🔶👩‍🎨🎨💨❗️ 💭 light yellow foreground
+      🆕🔶👩‍🎨🎨🕳❗️ 💭 light blue foreground
+      🆕🔶👩‍🎨🎨💣❗️ 💭 light pink foreground
+      🆕🔶👩‍🎨🎨💬❗️ 💭 light cyan foreground
+      🆕🔶👩‍🎨🎨💔❗️ 💭 white foreground
+      🆕🔶👩‍🎨🎨🤕❗️ 💭 black background
+      🆕🔶👩‍🎨🎨🥵❗️ 💭 red background
+      🆕🔶👩‍🎨🎨🤢❗️ 💭 green background
+      🆕🔶👩‍🎨🎨🧐❗️ 💭 yellow background
+      🆕🔶👩‍🎨🎨🥶❗️ 💭 blue background
+      🆕🔶👩‍🎨🎨🤒❗️ 💭 purple background
+      🆕🔶👩‍🎨🎨🤮❗️ 💭 cyan background
+      🆕🔶👩‍🎨🎨🤧❗️ 💭 light gray background
+      🆕🔶👩‍🎨🎨🥴❗️ 💭 dark gray background
+      🆕🔶👩‍🎨🎨😵❗️ 💭 light red background
+      🆕🔶👩‍🎨🎨🤯❗️ 💭 light green background
+      🆕🔶👩‍🎨🎨🤠❗️ 💭 light yellow background
+      🆕🔶👩‍🎨🎨🥳❗️ 💭 light blue background
+      🆕🔶👩‍🎨🎨😎❗️ 💭 light pink background
+      🆕🔶👩‍🎨🎨🤓❗️ 💭 light cyan background
+      🆕🔶👩‍🎨🎨😷❗️ 💭 white background
+      🆕🔶👩‍🎨🎨🌩❗️ 💭 bold
+      🆕🔶👩‍🎨🎨🌧❗️ 💭 italic
+      🆕🔶👩‍🎨🎨🌨❗️ 💭 underline
+      🆕🔶👩‍🎨🎨🌪❗️ 💭 strikethrough
+    🍆 ➡️ styles
+
+    🔂 style styles 🍇
+      🖌🐇🔶👩‍🎨🖌
+        🔤message to style🔤
+        🍨
+          style
+        🍆
+      ❗️ ➡️ result
+
+      ⌛🐇🔶👩‍🎨🖌❗️ ➡️ clearStyle
+    
+      ↪️ 🚫🐇🔶👩‍🎨🖌❗️ ➡️ escape 🍇
+        ↪️ 🔡style❗️ ➡️ styleCode 🍇
+          ⛔🐕 🎼 result escape ❗️ 🔤Formatted string starts with escape🔤❗️
+          ⛔🐕 🎼 result 🍪 escape styleCode 🍪 ❗️ 🔤Formatted string starts with escape then blue🔤❗️
+
+          ⛔🐕 ⛳ result clearStyle ❗️ 🔤Formatted string ends with clear style🔤❗️
+          ⛔🐕 ⛳ result 🍪 escape clearStyle 🍪 ❗️ 🔤Formatted string ends with escape then clear style🔤❗️
+
+          ⛔🐕 result 🙌 result 🔤blue formatting is setup as expected🔤❗️
+        🍉
+        🙅 🍇
+          ⛔🐕 👍 🙌 👎 🔤Style emun generates string🔤❗️
+        🍉
+      🍉
+      🙅 🍇
+        ⛔🐕 👍 🙌 👎 🔤Escape char creation🔤❗️
+      🍉
+    🍉
+  🍉
+🍉
+
 🏁 ➡️ 🔢 🍇
-  ↩️ 0
+  ↩️ 👔🆕🦔🆕❗️❗️
 🍉

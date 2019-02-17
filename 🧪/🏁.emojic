@@ -69,7 +69,7 @@
       ↪️ 🚫🐇🔶👩‍🎨🖌❗️ ➡️ escape 🍇
         ↪️ 🔡style❗️ ➡️ styleCode 🍇
           ⛔🐕 🎼 result escape ❗️ 🔤Formatted string starts with escape🔤❗️
-          ⛔🐕 🎼 result 🍪 escape styleCode 🍪 ❗️ 🔤Formatted string starts with escape then blue🔤❗️
+          ⛔🐕 🎼 result 🍪 escape styleCode 🍪 ❗️ 🔤Formatted string starts with escape then code🔤❗️
 
           ⛔🐕 ⛳ result clearStyle ❗️ 🔤Formatted string ends with clear style🔤❗️
           ⛔🐕 ⛳ result 🍪 escape clearStyle 🍪 ❗️ 🔤Formatted string ends with escape then clear style🔤❗️

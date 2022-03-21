@@ -1,7 +1,7 @@
 💭🔜
     colorconsole - A emojicode library to easily style terminal text.
 
-    Copyright 2019 Nathan Mentley
+    Copyright 2022 Nathan Mentley
     
     Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
     
@@ -12,64 +12,38 @@
 
 📗 A class that will apply styles defined in 🎨 to strings. 📗
 🌍 🐇 🖌 🍇
-  🆕 🍇🍉
   📗 Takes a string and a list of 🎨 values and returns a string that's formatted based on the passed styles. 📗
   🐇 🔓 ❗️ 🖌 message 🔡 styles 🍨🐚🎨🍆 ➡️ 🔡 🍇
-    message ➡️ 🖍 🆕 ret
-    💭 TODO: Use 🔠 instead of 🍪
+    🆕🔠❗️ ➡️ stringBuilder
 
-    💭 get the clear style string to concat at the end of the message
     ⌛🐇🖌❗️ ➡️ clearStyle
-  
-    💭 Try to get the escape character, (byte 27), as a string called escape
-    ↪️ 🚫🐇🖌❗️ ➡️ escape 🍇
+    🚫🐇🖌❗️ ➡️ escapeByte
+
+    ☣️ 🍇
       💭 foreach passed enum style
       🔂 style styles 🍇
         💭 get the string value of the style
         ↪️ 🔡 style ❗️ ➡️ code 🍇
-          💭 concat escapeByte, style code, the passed message, escapeByte, and the clear style code.
-          🍪 escape code ret escape clearStyle 🍪 ➡️ 🖍 ret
+          🐻🔸💧 stringBuilder escapeByte ❗️
+          🐻 stringBuilder code ❗️
         🍉
       🍉
+
+      🐻 stringBuilder message ❗️
+      🐻🔸💧 stringBuilder escapeByte ❗️
+      🐻 stringBuilder clearStyle ❗️
     🍉
 
-    ↩️ ret
+    ↩️ 🔡 stringBuilder ❗️
   🍉
 
   📗 Returns the clear formating string. 📗
-  🐇 🔓 ️❗ ⌛ ➡️ 🔡 🍇
+  🐇 🔒 ️❗ ⌛ ➡️ 🔡 🍇
     ↩️ 🔤[0m🔤
   🍉
 
-  📗 Returns a string that contains the escape byte. (27) 📗
-  🐇 🔓 ️❗ 🚫 ➡️ 🍬🔡 🍇
-    🔤🔤 ➡️ 🖍 🆕 ret
-
-    💭 Since emojicode doesn't have the ability to use an escape in a string to setup a custom char. Example: \x1B
-    💭 We need to start with a byte and do some memory magic to get it as a string.
-
-    💭 load up escape char(27) as a byte and then store it as a string.
-    💧27❗️ ➡️ byte
-    ☣️ 🍇 💭 It's a bit of a complex thing to get a string of a byte
-      💭 manual memory allocation
-      🆕 🧠 🆕 1 ❗ ➡️ uData
-      💭 Copy our byte into the memory we alloc'd
-      ✍ uData byte 0 1 ❗️
-      💭 Get data from our memory pointer
-      🆕 📇 🧠 uData 1 ❗️ ➡️ binary
-    🍉
-
-    💭 get an optional string from data and unwrap it.
-    ↪️ 🔡 binary ❗️ ➡️ string 🍇
-      💭 Store the hard to get escape character
-      string ➡️ 🖍 ret
-    🍉
-
-    ☣️ 🍇
-      💭 Cleanup our unmanaged memory code.
-      ♻ 🐚💧🍆 uData  0 ❗
-    🍉
-
-    ↩️ ret
+  📗 Returns a byte that contains the escape byte. (27) 📗
+  🐇 🔒 ❗ 🚫 ➡️ 💧 🍇
+    ↩️ 💧27❗️
   🍉
 🍉

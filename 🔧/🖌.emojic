@@ -19,20 +19,18 @@
     ⌛🐇🖌❗️ ➡️ clearStyle
     🚫🐇🖌❗️ ➡️ escapeByte
 
-    ☣️ 🍇
-      💭 foreach passed enum style
-      🔂 style styles 🍇
-        💭 get the string value of the style
-        ↪️ 🔡 style ❗️ ➡️ code 🍇
-          🐻🔸💧 stringBuilder escapeByte ❗️
-          🐻 stringBuilder code ❗️
-        🍉
+    💭 foreach passed enum style
+    🔂 style styles 🍇
+      💭 get the string value of the style
+      ↪️ 🔡 style ❗️ ➡️ code 🍇
+        ☣️ 🍇 🐻🔸💧 stringBuilder escapeByte ❗️ 🍉
+        🐻 stringBuilder code ❗️
       🍉
-
-      🐻 stringBuilder message ❗️
-      🐻🔸💧 stringBuilder escapeByte ❗️
-      🐻 stringBuilder clearStyle ❗️
     🍉
+
+    🐻 stringBuilder message ❗️
+    ☣️ 🍇 🐻🔸💧 stringBuilder escapeByte ❗️ 🍉
+    🐻 stringBuilder clearStyle ❗️
 
     ↩️ 🔡 stringBuilder ❗️
   🍉
